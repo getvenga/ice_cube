@@ -28,7 +28,7 @@ module IceCube
     end
 
     def self.config
-      @config ||= YAML.load_file(File.join(IceCube::I18n::LOCALES_PATH, 'en.yml'))['en']
+      @config ||= YAML.load_file(File.join(IceCube::I18n::LOCALES_PATH, 'en-US.yml'))['en']
     end
   end
 end
