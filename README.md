@@ -1,3 +1,16 @@
+# ice_cube wrapper to add custom localization config
+Pull upstream changes to keep up-to-date.
+```bash
+git remote add upstream git@github.com:seejohnrun/ice_cube.git
+git pull upstream/master
+```
+
+Use github actions to build gem. Tested locally with act.
+```bash
+brew install act
+act (-n)
+```
+
 # ice_cube - Easy schedule expansion
 
 [![Build Status][travis-ice_cube-badge_image]][travis-ice_cube]
