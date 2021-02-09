@@ -1,0 +1,23 @@
+---
+en-IE: 
+    ice_cube: 
+        pieces_connector: " / "
+        date: 
+            formats: 
+                default: "%-d %B %Y"
+        times: 
+            other: "%{count} times"
+            one: "%{count} time"
+        until: "until %{date}"
+        each_day: 
+            one: "Daily"
+            other: "Every %{count} days"
+        each_week: 
+            one: "Weekly"
+            other: "Every %{count} weeks"
+        each_month: 
+            one: "Monthly"
+            other: "Every %{count} months"
+        each_year: 
+            one: "Yearly"
+            other: "Every %{count} years"
