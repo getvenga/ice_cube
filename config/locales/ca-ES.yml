@@ -1,0 +1,23 @@
+---
+ca-ES: 
+    ice_cube: 
+        pieces_connector: " / "
+        date: 
+            formats: 
+                default: "%B %-d, %Y"
+        times: 
+            other: "%{count} vegades"
+            one: "%{count} vegada"
+        until: "until %{date}"
+        each_day: 
+            one: "Diàriament"
+            other: "Cada %{count} dies"
+        each_week: 
+            one: "Setmanalment"
+            other: "Cada %{count} setmanes"
+        each_month: 
+            one: "Mensualment"
+            other: "Cada %{count} mesos"
+        each_year: 
+            one: "Yearly"
+            other: "Every %{count} years"
